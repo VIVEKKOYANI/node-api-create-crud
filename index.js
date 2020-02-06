@@ -19,4 +19,18 @@ mongoose.connect(db, {useNewUrlParser: true})
 
 // Defining the port
 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
+
+//Initialize cors Middleware
+app.use(cors());
+
+//Initialize body-parser Middleware
+app.use(bodyParse.json());
+
+app.get('/', (res, req) => {
+    res.send('<h1>Hello world</h1>')
+});
+
+app.listen(port, () => {
+    console.log('Server started on port', port)
+});
