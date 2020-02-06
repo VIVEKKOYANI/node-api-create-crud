@@ -1,0 +1,25 @@
+{
+  "name": "api-create-crud",
+  "version": "1.0.0",
+  "description": "node crud api create ",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VIVEKKOYANI/node-api-create-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VIVEKKOYANI/node-api-create-crud/issues"
+  },
+  "homepage": "https://github.com/VIVEKKOYANI/node-api-create-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11"
+  }
+}
