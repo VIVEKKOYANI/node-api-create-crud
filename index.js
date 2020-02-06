@@ -16,3 +16,7 @@ mongoose.connect(db, {useNewUrlParser: true})
     .catch((err) => {
         console.log('Uneble to connect with the database', err)
     });
+
+// Defining the port
+
+const port = process.env.port || 3000;
